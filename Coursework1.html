@@ -28,7 +28,7 @@
                     </figure>
                     <p v-text="subject.location"></p>
                     <p>Price: {{subject.price}}</p>
-                    <p>spaces: {{subject.spaces -cartCount(subject.id) }}</p>
+                    <p>Spaces: {{subject.spaces -cartCount(subject.id) }}</p>
                     
 
                     <button v-on:click='addToCart(subject)' v-if='canAddToCart(subject)'>Add to cart</button>
