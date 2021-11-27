@@ -66,7 +66,7 @@ let subjects = [
      {
         "id": 1009,
         "lesson": "Music",
-        "location": "Canada",
+        "location": "America",
         "price": 25.00,
         "image": "music.png",
         "spaces": 5
